@@ -1,0 +1,46 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: lightgrey;
+}
+
+form{
+	width: 400px;
+	border-radius: 15px;
+	background: #fff;
+	height: 500px;
+	margin: 100px auto;
+	padding: 15px;
+}
+
+form h2{
+	text-align: center;
+	padding-top: 25px;
+}
+
+form center{
+	text-align: left;
+	margin-top: 5px;
+}
+
+button{
+	margin-top: 20px;
+}
+
+#signup{
+	margin-top: 15px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
